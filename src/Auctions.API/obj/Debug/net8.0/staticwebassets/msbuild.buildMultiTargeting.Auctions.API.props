@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Auctions.API.props" />
+</Project>
