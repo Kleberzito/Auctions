@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+bv4UJ6thQdnKbOvUm2bgR2x/f/HmpgKtSQXuT9URJ1x5idICAd835eWQCCWmdDw4IF4DwCi2D73SqHeCnSolQ==",
+  "dgSpecHash": "8/T0voOyhdOzZAJIJxWtDftVF9g5xPKfFud7bZ/kd6/upGU1S/cqnW+WCpEor1CTcMdf91sb78Fe1Y+bEv4BNQ==",
   "success": true,
   "projectFilePath": "F:\\Estudos .NET\\Rocketseat\\Auctions\\src\\Auctions.API\\Auctions.API.csproj",
   "expectedPackageFiles": [
@@ -22,7 +22,10 @@
     "C:\\Users\\klebe\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\klebe\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\klebe\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\klebe\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",
+    "C:\\Users\\klebe\\.nuget\\packages\\sqlitepclraw.bundle_winsqlite3\\2.1.8\\sqlitepclraw.bundle_winsqlite3.2.1.8.nupkg.sha512",
+    "C:\\Users\\klebe\\.nuget\\packages\\sqlitepclraw.core\\2.1.8\\sqlitepclraw.core.2.1.8.nupkg.sha512",
+    "C:\\Users\\klebe\\.nuget\\packages\\sqlitepclraw.provider.sqlite3\\2.1.8\\sqlitepclraw.provider.sqlite3.2.1.8.nupkg.sha512",
+    "C:\\Users\\klebe\\.nuget\\packages\\sqlitepclraw.provider.winsqlite3\\2.1.8\\sqlitepclraw.provider.winsqlite3.2.1.8.nupkg.sha512",
     "C:\\Users\\klebe\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\klebe\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\klebe\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

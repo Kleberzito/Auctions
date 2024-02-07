@@ -38,3 +38,6 @@ F:\Estudos .NET\Rocketseat\Auctions\src\Auctions.API\bin\Debug\net8.0\Microsoft.
 F:\Estudos .NET\Rocketseat\Auctions\src\Auctions.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
 F:\Estudos .NET\Rocketseat\Auctions\src\Auctions.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 F:\Estudos .NET\Rocketseat\Auctions\src\Auctions.API\bin\Debug\net8.0\SQLitePCLRaw.core.dll
+F:\Estudos .NET\Rocketseat\Auctions\src\Auctions.API\bin\Debug\net8.0\SQLitePCLRaw.provider.sqlite3.dll
+F:\Estudos .NET\Rocketseat\Auctions\src\Auctions.API\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
+F:\Estudos .NET\Rocketseat\Auctions\src\Auctions.API\bin\Debug\net8.0\SQLitePCLRaw.provider.winsqlite3.dll

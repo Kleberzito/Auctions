@@ -8,7 +8,8 @@ namespace Auctions.API.Repositories
         public DbSet<Auction> Auctions { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite(@"Data Source=F:\Estudos.NET\Rocketseat\Auctions\data\leilaoDbNLW.db");
+            optionsBuilder.UseSqlite(@"Data Source=F:\Estudos .NET\Rocketseat\Auctions\data\leilaoDbNLW.db");
+            SQLitePCL.Batteries.Init();
         }
     }
 }
