@@ -30,3 +30,4 @@ F:\Estudos .NET\Rocketseat\Auctions\src\Auctions.API\obj\Debug\net8.0\refint\Auc
 F:\Estudos .NET\Rocketseat\Auctions\src\Auctions.API\obj\Debug\net8.0\Auctions.API.pdb
 F:\Estudos .NET\Rocketseat\Auctions\src\Auctions.API\obj\Debug\net8.0\Auctions.API.genruntimeconfig.cache
 F:\Estudos .NET\Rocketseat\Auctions\src\Auctions.API\obj\Debug\net8.0\ref\Auctions.API.dll
+F:\Estudos .NET\Rocketseat\Auctions\src\Auctions.API\obj\Debug\net8.0\Auctions.API.sourcelink.json

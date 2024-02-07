@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Auctions.API.UseCase.Auctions.GetCurrent;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Auctions.API.Controllers
 {
@@ -9,7 +10,10 @@ namespace Auctions.API.Controllers
         [HttpGet]
         public IActionResult GetCurrent() 
         {
-            return Ok("kleber");
+            var useCase = new AuctionUseCase();
+            var result = useCase.Execute();
+
+            return Ok(result);
         }
     }
 }
