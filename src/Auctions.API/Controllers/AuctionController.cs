@@ -9,9 +9,8 @@ namespace Auctions.API.Controllers
         [HttpGet]
         [ProducesResponseType(typeof(Auction), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
-        public IActionResult GetCurrent() 
-        {
-            var useCase = new AuctionUseCase();
+        public IActionResult GetCurrent([FromServices]AuctionUseCase useCase) 
+        {            
             var result = useCase.Execute();
 
             if (result is null)

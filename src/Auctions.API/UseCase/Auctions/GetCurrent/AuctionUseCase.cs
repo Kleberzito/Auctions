@@ -1,20 +1,16 @@
-﻿using Auctions.API.Entities;
-using Auctions.API.Repositories;
-using Microsoft.EntityFrameworkCore;
+﻿using Auctions.API.Contracts;
+using Auctions.API.Entities;
 
 namespace Auctions.API.UseCase.Auctions.GetCurrent
 {
     public class AuctionUseCase
-    {        
+    {
+        private readonly IAuctionRepository _repository;
+
+        public AuctionUseCase(IAuctionRepository repository) => _repository = repository;
         public Auction? Execute()
         {
-            var repository = new AuctionDbContext();
-
-            var today = DateTime.Now;
-
-            return repository
-                .Auctions.Include(auction => auction.Items)
-                .FirstOrDefault(auction => today >= auction.Starts && today <= auction.Ends);
+            return _repository.GetCurrent();
         }
     }
 }
